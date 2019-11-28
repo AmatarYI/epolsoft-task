@@ -61,7 +61,6 @@ int main()
 			binaryString.resize(lenght, '1');
 
 			char temp; 
-			size_t found = 0;
 			for (int i = 0; i < lenght; i++)
 			{
 				temp = binaryString[i];
@@ -84,7 +83,7 @@ int main()
 
 					binaryString.resize(lenght, '1');
 					newArray.clear();
-					i = 0;
+					i = - 1;
 				}
 				else if (tempInt == 1)
 				{
